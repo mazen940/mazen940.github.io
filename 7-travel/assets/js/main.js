@@ -60,7 +60,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 3000,
   delay: 400,
-  reset: true,
+  // reset: true,
 });
 sr.reveal(`.home--data, .explore--data, .explore--user, .footer--container`);
 sr.reveal(`.home--card`, { delay: 600, distance: "100px", interval: 100 });
