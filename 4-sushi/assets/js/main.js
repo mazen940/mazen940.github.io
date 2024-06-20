@@ -88,7 +88,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 400,
-  reset: true,
+  // reset: true,
 });
 sr.reveal(`.home--img, .newsletter--container, .footer--logo, footer--description, .footer--content, .footer--info`);
 sr.reveal(`.home--data`, {origin: 'bottom'});
