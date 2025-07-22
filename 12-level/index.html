@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <!-- bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css" /> -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" integrity="sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="assets/jquery-ui-1.13.3/jquery-ui.css" />
+    <!-- slick slider css -->
+<!--     <link rel="stylesheet" href="assets/css/slick.css" /> -->
+<!--     <link rel="stylesheet" href="assets/css/slick-theme.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Level</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="assets/img/logo.png" alt="Site Logo" />
+          <h1 class="logo-text">Level</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a
+              href="#search-form"
+              class="level-nav-link nav-link active"
+              aria-current="page"
+            >
+              search
+            </a>
+            <a href="#services" class="level-nav-link nav-link">services</a>
+            <a href="#recommends" class="level-nav-link nav-link">recommends</a>
+            <a href="#contact" class="level-nav-link nav-link">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- search -->
+    <div id="search-form" class="hero">
+      <div class="container">
+        <form action="index.html" method="get" class="search-form">
+          <div class="form-group" style="flex: 100%">
+            <i class="fa fa-map-marker"></i>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Type your Destination"
+            />
+          </div>
+          <div class="form-group">
+            <i class="fa fa-calendar"></i>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCheckIn"
+              placeholder="Check IN"
+            />
+          </div>
+          <div class="form-group">
+            <i class="fa fa-calendar"></i>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCheckOut"
+              placeholder="Check Out"
+            />
+          </div>
+          <div class="form-group">
+            <i class="fa fa-bed"></i>
+            <select class="form-control">
+              <option value="">Rooms</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <i class="fa fa-user"></i>
+            <select class="form-control">
+              <option value="">Adults</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <i class="fa fa-user"></i>
+            <select class="form-control">
+              <option value="">Children</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Check</button>
+          </div>
+        </form>
+        <p class="need-help">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+          magnam.
+          <a href="#">Need Help?</a>
+        </p>
+      </div>
+    </div>
+    <section class="section-color">
+      <div class="container text-center">
+        <h2 class="section-title">We are here to help you</h2>
+        <p class="section-subtitle">Subscribe to get our news</p>
+        <a href="#" class="btn btn-white">Subscribe Now</a>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <article class="article col-lg-4">
+            <i class="fa fa-legal article-icon"></i>
+            <h3 class="article-title">Level HTML</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              ipsam omnis repellat molestias cumque aperiam qui eligendi
+              asperiores voluptas fugiat.
+            </p>
+            <a href="#" class="btn btn-primary btn-fit">Continue Reading</a>
+          </article>
+
+          <article class="article col-lg-4">
+            <i class="fa fa-plane article-icon"></i>
+            <h3 class="article-title">Level CSS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              saepe harum earum unde. Hic voluptas delectus maxime nostrum.
+              Provident, necessitatibus.
+            </p>
+            <a href="#" class="btn btn-primary btn-fit">Continue Reading</a>
+          </article>
+
+          <article class="article col-lg-4">
+            <i class="fa fa-life-saver article-icon"></i>
+            <h3 class="article-title">Contact us</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+              facere cupiditate possimus animi minus at impedit ipsam ex vitae
+              odio.
+            </p>
+            <a href="#" class="btn btn-primary btn-fit">Continue Reading</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- slider -->
+    <section id="recommends" class="section-grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="level-slider">
+              <article class="level-slider-item">
+                <img src="assets/img/img-01.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+              <article class="level-slider-item">
+                <img src="assets/img/img-02.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+              <article class="level-slider-item">
+                <img src="assets/img/img-01.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+              <article class="level-slider-item">
+                <img src="assets/img/img-02.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+              <article class="level-slider-item">
+                <img src="assets/img/img-01.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+              <article class="level-slider-item">
+                <img src="assets/img/img-02.jpg" alt="" />
+                <div class="level-slider-item-container">
+                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione sunt hic laborum illo quae expedita iste delectus ab
+                    fugiat corporis!
+                  </p>
+                  <a href="" class="btn btn-primary btn-fit">More Info.</a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="star-places">
+              <div class="star-places-header">
+                <h3>Recommend Places</h3>
+                <p>places that we recommended for you</p>
+              </div>
+              <div class="star-places-body">
+                <a href="#">
+                  <img src="assets/img/img-01.jpg" alt="place image" />
+                  <h4>Europe</h4>
+                </a>
+                <a href="#">
+                  <img src="assets/img/img-02.jpg" alt="place image" />
+                  <h4>Asia</h4>
+                </a>
+                <a href="#">
+                  <img src="assets/img/img-01.jpg" alt="place image" />
+                  <h4>Africa</h4>
+                </a>
+                <a href="#">
+                  <img src="assets/img/img-02.jpg" alt="place image" />
+                  <h4>America</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- video -->
+    <section class="video">
+      <div class="video-overlay">
+        <i class="fa fa-play-circle video-control-play"></i>
+        <i class="fa fa-pause-circle video-control-pause"></i>
+      </div>
+      <div class="video-container">
+        <video class="video-level">
+          <source src="assets/img/video.mp4" type="video/mp4" />
+          your browser is n ot supported
+        </video>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mab-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91929.49900981293!2d12.460093250000002!3d43.942877949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ceb5ff5e63f79%3A0xf39982342010!2z2LPYp9mGINmF2KfYsdmK2YbZiA!5e0!3m2!1sar!2s!4v1719237573380!5m2!1sar!2s"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="" class="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  placeholder="Name"
+                  required
+                />
+                <i class="fa fa-user"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  placeholder="Subject"
+                  required
+                />
+                <i class="fa fa-book"></i>
+              </div>
+              <div class="form-group">
+                <textarea
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-control"
+                  rows="9"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <i class="fa fa-comment"></i>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send message Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright &copy; Your company</p>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/jquery-ui-1.13.3/jquery-ui.js"></script>
+    <!-- slick -->
+<!--     <script src="assets/js/slick.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
